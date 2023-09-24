@@ -1,4 +1,4 @@
-.body {
+body, .body-about, .body-photo, .body-blog, .body-port {
   background: #1B5063;
   background-repeat: no-repeat;
   height: 100%;
@@ -83,10 +83,6 @@
   max-width: 453px;
   border: 10px solid #000000;
   box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.6);
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .slideshow-container {
