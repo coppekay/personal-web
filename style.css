@@ -1,4 +1,4 @@
-body {
+.body {
   background: #1B5063;
   background-repeat: no-repeat;
   height: 100%;
@@ -46,7 +46,7 @@ body {
   text-shadow: 2px 3px rgba(3, 3, 3, 0.6117647059);
 }
 
-about me page below .about-me-text {
+.about-me-text {
   text-align: center;
   max-width: 50%;
   margin: 4em auto;
@@ -85,6 +85,95 @@ about me page below .about-me-text {
   box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.6);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-cameron, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade-cam {
+  animation-name: fade-cam;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade-cam {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @keyframes fade-up {
   0% {
     opacity: 0;

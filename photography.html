@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kayla Copper-Photography</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="icon/x-icon" href="photos/white-logo-design.png">
@@ -42,6 +42,57 @@
           </ul>
         </div>
       </nav>
+      <!-- <div id="cameron-slider">
+        <img src="photos/cameron-zoo-med-1.jpg" alt="Image 1">
+        <img src="photos/cameron-zoo-med-2.jpg" alt="Image 2">
+        <img src="photos/cameron-zoo-2.jpg" alt="Image 3">
+        <img src="photos/cameron-zoo-5.jpg" alt="Image 4">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div> -->
+
+      <div class="slideshow-container">
+        <!-- images with number captions -->
+        <div class="mySlides fade-cam">
+            <div class="numbertext">1/3</div>
+            <img src="photos/cameron-zoo-med-1.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+
+        <div class="mySlides fade-cam">
+            <div class="numbertext">2/3</div>
+            <img src="photos/cameron-zoo-med-2.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+
+        <div class="mySlides fade-cam">
+            <div class="numbertext">3/3</div>
+            <img src="photos/cameron-zoo-med-3.jpg" style="width:100%">
+            <div class="text"></div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          
+        </div>
+
+
+        
+
+
+
+
+      <script src="photography.js"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
