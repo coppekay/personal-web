@@ -215,6 +215,16 @@ body, .body-about, .body-photo, .body-blog, .body-port, .body-software{
     display: table;
     clear: both;
 }
+
+//Photography
+
+.portfolio-heading{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
 //keyframes
 
 @keyframes fade-cam {

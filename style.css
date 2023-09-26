@@ -192,6 +192,14 @@ body, .body-about, .body-photo, .body-blog, .body-port, .body-software {
   clear: both;
 }
 
+.portfolio-heading {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
 @keyframes fade-cam {
   from {
     opacity: 0.4;
