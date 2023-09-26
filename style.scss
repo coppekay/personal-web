@@ -73,10 +73,14 @@ body, .body-about, .body-photo, .body-blog, .body-port, .body-software{
     font-size: large;
     font-weight:map-get($font-weights, medium);
     border-radius: 25px 25px;
-    border: groove 15px #75baba4d;
-    background-color: #669e9d2c;
+    border: groove 15px #75babaac;
+    background-color: #669e9dd0;
     animation: fade-up 1s;
 
+}
+
+.links {
+    color: #1B5063;
 }
 
 .grid{
@@ -94,19 +98,6 @@ body, .body-about, .body-photo, .body-blog, .body-port, .body-software{
    
 }
 
-.photo-1, .photo-2, .photo-3 {
-    animation-timing-function: ease-in 5s;
-    max-width: 400px;
-    border: 10px solid $photo-border;
-    box-shadow: 10px 5px 15px 5px rgba(0,0,0,.6);
-    
-}
-.photo-4{
-    max-width: 453px;
-    border: 10px solid $photo-border;
-    box-shadow: 10px 5px 15px 5px rgba(0,0,0,.6);
-    
-}
 
 //photography
 

@@ -54,9 +54,13 @@ body, .body-about, .body-photo, .body-blog, .body-port, .body-software {
   font-size: large;
   font-weight: 500;
   border-radius: 25px 25px;
-  border: groove 15px rgba(117, 186, 186, 0.3019607843);
-  background-color: rgba(102, 158, 157, 0.1725490196);
+  border: groove 15px rgba(117, 186, 186, 0.6745098039);
+  background-color: rgba(102, 158, 157, 0.8156862745);
   animation: fade-up 1s;
+}
+
+.links {
+  color: #1B5063;
 }
 
 .grid {
@@ -70,19 +74,6 @@ body, .body-about, .body-photo, .body-blog, .body-port, .body-software {
   padding-top: 3rem;
   padding-bottom: 3rem;
   animation: fade-up 1s;
-}
-
-.photo-1, .photo-2, .photo-3 {
-  animation-timing-function: ease-in 5s;
-  max-width: 400px;
-  border: 10px solid #000000;
-  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.6);
-}
-
-.photo-4 {
-  max-width: 453px;
-  border: 10px solid #000000;
-  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.6);
 }
 
 .slideshow-container {
