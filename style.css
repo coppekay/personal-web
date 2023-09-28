@@ -198,6 +198,16 @@ body, .body-about, .body-photo, .body-blog, .body-port, .body-software {
   padding-top: 20px;
   color: white;
   text-align: center;
+  padding-bottom: 15px;
+  border-bottom: groove 5px rgba(0, 0, 0, 0.185);
+}
+
+#cameron-zoo {
+  margin: auto;
+  text-align: center;
+  color: white;
+  max-width: 1000px;
+  padding: 15px;
 }
 
 @keyframes fade-cam {
