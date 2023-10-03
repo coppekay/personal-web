@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #ffffff;
-  color: #1B5063;
-  overflow-x: hidden;
-  height: 100%;
-  margin: 0;
-}
-
 .body-about, .body-photo, .body-blog, .body-port, .body-software {
   background: #1B5063;
   color: #000000;
