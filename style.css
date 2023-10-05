@@ -2,12 +2,11 @@
   box-sizing: border-box;
 }
 
+
 body {
   background: #ffffff;
   color: #1B5063;
   overflow: hidden;
-  height: 100%;
-  margin: 0;
 }
 
 .logo {
