@@ -1,6 +1,4 @@
-$primary:#7abb77;
-$third: #9FD3C9;
-$photo-border:#000000;
+
 $font-weights: (
     "regular": 400,
     "medium":500,
@@ -15,18 +13,12 @@ $font-weights: (
 body{
     background: #ffffff;
     color:#1B5063;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 100%;  
     margin: 0; 
     
 }
-.body-about, .body-photo, .body-blog, .body-port, .body-software{
-    background: #1B5063;
-    color:#000000;
-    overflow-x: hidden;
-    height: 100%;  
-    margin: 0; 
-}
+
 .logo{
     padding-top: 6rem;
     display: flex;
@@ -39,7 +31,8 @@ body{
 }
 .heading{
     text-align: center;
-    padding-top: 2em;font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
     color: white
     
 }
@@ -68,17 +61,9 @@ body{
     margin-bottom: 12rem;
 }
 
-//rotaiting nav-bar
-body {
-    font-family: 'Lato', sans-serif;
-    background-color: #ffffff;
-    color: #19aa7e;
-    overflow-x: hidden;
-    margin: 0;
-  }
-  
+//rotaiting nav-bar  
   .container {
-    background-color: #1B5063;
+    background-image: linear-gradient(0deg, #1B5063, #38a3ca);
     transform-origin: top left;
     transition: transform 0.5s linear;
     width: 100vw;
@@ -166,13 +151,21 @@ body {
   }
   
   nav ul li + li {
-    margin-left: 15px;
+    margin-left: 20px;
     transform: translateX(-150%);
   }
   
   nav ul li + li + li {
     margin-left: 30px;
     transform: translateX(-200%);
+  }
+  nav ul li + li + li + li{
+    margin-left: 50px;
+    transform: translateX(-250%);
+  }
+  nav ul li + li + li + li + li{
+    margin-left: 70px;
+    transform: translateX(-230%);
   }
   
   nav a{
@@ -208,6 +201,7 @@ body {
     font-size: large;
     font-weight:map-get($font-weights, medium);
     border-radius: 25px 25px;
+    color: #033b50;
     border: groove 15px #75babaac;
     background-color: #669e9dd0;
     animation: fade-up 1s;
@@ -215,24 +209,8 @@ body {
 }
 
 .links {
-    color: #1B5063;
+    color: #010a0e;
 }
-
-.grid{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr  ;
-    grid-template-rows: 1fr 1fr ;
-    gap: 3rem;
-    text-align: center;
-    max-width: 50%;
-    margin: 0 auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    animation: fade-up 1s;
-   
-}
-
 
 //photography
 
