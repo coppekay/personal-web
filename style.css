@@ -5,15 +5,7 @@
 body {
   background: #ffffff;
   color: #1B5063;
-  overflow-x: hidden;
-  height: 100%;
-  margin: 0;
-}
-
-.body-about, .body-photo, .body-blog, .body-port, .body-software {
-  background: #1B5063;
-  color: #000000;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100%;
   margin: 0;
 }
@@ -59,16 +51,8 @@ body {
   margin-bottom: 12rem;
 }
 
-body {
-  font-family: "Lato", sans-serif;
-  background-color: #ffffff;
-  color: #19aa7e;
-  overflow-x: hidden;
-  margin: 0;
-}
-
 .container {
-  background-color: #1B5063;
+  background-image: linear-gradient(0deg, #1B5063, #38a3ca);
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
@@ -156,13 +140,23 @@ nav ul li i {
 }
 
 nav ul li + li {
-  margin-left: 15px;
+  margin-left: 20px;
   transform: translateX(-150%);
 }
 
 nav ul li + li + li {
   margin-left: 30px;
   transform: translateX(-200%);
+}
+
+nav ul li + li + li + li {
+  margin-left: 50px;
+  transform: translateX(-250%);
+}
+
+nav ul li + li + li + li + li {
+  margin-left: 70px;
+  transform: translateX(-230%);
 }
 
 nav a {
@@ -193,26 +187,14 @@ nav a:hover {
   font-size: large;
   font-weight: 500;
   border-radius: 25px 25px;
+  color: #033b50;
   border: groove 15px rgba(117, 186, 186, 0.6745098039);
   background-color: rgba(102, 158, 157, 0.8156862745);
   animation: fade-up 1s;
 }
 
 .links {
-  color: #1B5063;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 3rem;
-  text-align: center;
-  max-width: 50%;
-  margin: 0 auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  animation: fade-up 1s;
+  color: #010a0e;
 }
 
 .slideshow-container {
