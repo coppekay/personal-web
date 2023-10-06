@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -29,12 +30,14 @@ body {
 }
 
 .hi {
+  font-family: Handlee;
   font-size: x-large;
   font-weight: 500;
   text-shadow: 2px 3px rgba(3, 3, 3, 0.6117647059);
 }
 
 .name {
+  font-family: Handlee;
   font-size: 5em;
   font-weight: 700;
   text-underline-position: under;
@@ -44,8 +47,9 @@ body {
 }
 
 .dev {
+  font-family: Handlee;
   padding-top: 1em;
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   text-shadow: 2px 3px rgba(3, 3, 3, 0.6117647059);
   margin-bottom: 12rem;
@@ -160,6 +164,8 @@ nav ul li + li + li + li + li {
 }
 
 nav a {
+  font-family: Handlee;
+  font-weight: 600;
   color: #1B5063;
   text-decoration: none;
   transition: all 0.5s;
@@ -167,7 +173,7 @@ nav a {
 
 nav a:hover {
   color: #1B5063;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 .content img {
