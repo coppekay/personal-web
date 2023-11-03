@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Log in - Kayla Copper</title>
+</head>
+<body id="login">
+  <main class="log-container">
+
+    <div id="form-submitted-msg">Form successfully submitted!</div>
+
+    <h1>Please Login</h1>
+
+    <form id="exampleForm" novalidate>
+  
+      <div class="input-group">
+        <label for="email" class="form-label">Email </label>
+        <input type="email" id="email" name="email" class="form-control" required>
+        <small class="error-msg invalid-feedback">Required</small>
+      </div>
+      <div class="input-group">
+        <label for="password" class="form-label">Password </label>
+        <input type="password" id="password" name="password" class="form-control" required>
+        <small class="error-msg invalid-feedback">Required</small>
+      </div>
+
+      <div class="form-btns">
+        <button type="submit" class="btn btn-primary submit" disabled>Login</button>
+
+        <p class="text-login">Dont have an account? <a href="register.html">Register</a></p>
+      </div>
+    </form>
+  </main>
+
+  <script src="login.js"></script>
+</body>
+</html>
